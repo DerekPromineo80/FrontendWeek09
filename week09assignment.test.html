@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9 JavaScript Final Project Test</title>
+    <link rel="stylesheet" href="./note_modules/mocha/mocha.css">
+</head>
+<body>
+    <div id="mocha">
+        <p><a href=".">Index</a></p>
+    </div>
+    <script src="./node_modules/mocha/mocha.js"></script>
+    <script src="./node_modules/chai/chai.js"></script>
+    <script src="./week09assignment.js"></script>
+    <script>
+      // Setup Mocha with 'bdd' interface (describe, it, etc.)
+      mocha.setup("bdd");
+    </script>
+    <script src="./week09assignment.test.js"></script>
+    <script>
+      // Execute the tests. This will run the tests defined in your test file.
+      mocha.run();
+    </script>
+</body>
+</html>
